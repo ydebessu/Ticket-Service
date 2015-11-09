@@ -10,3 +10,6 @@ mvn test
 
 ### To run demo
 mvn -Dtest=Demo test
+
+### Notes
+Holds are implemeted to expire after 2 seconds if not Reserved. But this delay value can be modified at : com.ticketservice.utils.Constants#DELAY_BEFORE_HOLD_EXPIRATION
